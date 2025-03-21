@@ -7,35 +7,48 @@
   <title>To-Do List</title>
 </head>
 <body>
-  <div class="page-title">
-		<span>
-			To-Do List
-		</span>
-  </div>
-	<div class="task-wrapper">
-
-		<section class="task-add">
-			<input type="text" class="task-add-text">
-			<button class="task-add-button">
-				Добавить
-			</button>
-		</section>
-
-		<ul class="tasks-list">
-			<li>
-				<div class="task">
+  <div class="to-do-wrapper">
+		<div class="page-title">
+			<span class="page-title-text">
+				To-Do List
+			</span>
+		</div>
+		<div class="task-wrapper">
+	
+			<section class="task-add">
+				<input type="text" class="task-add-text" placeholder="текст новой задачи" autofocus>
+				<button class="task-add-button">
+					Добавить
+				</button>
+			</section>
+	
+			<ul class="tasks-list">
+				<li class="task">
 					<span class="task-text">
 						Задача для выполнения
 					</span>
-					<button class="task-status">
-						Выполнены
+					<button class="task-status-button">
+						Выполнена
 					</button>
-					<button class="task-delete">
+					<button class="task-delete-button">
 						Удалить
 					</button>
-					</div>
 				</li>
+
+				<li class="task completed">
+					<span class="task-text">
+						Задача для выполнения
+					</span>
+					<button class="task-status-button">
+						Выполнены
+					</button>
+					<button class="task-delete-button">
+						Удалить
+					</button>
+				</li>
+
 			</ul>
+		</div>
 	</div>
 </body>
 </html>
