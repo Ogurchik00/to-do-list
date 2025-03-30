@@ -101,7 +101,7 @@ body {
 	flex: 0 0 80%;
 }
 
-.task-status-button {
+.task-complete-button {
 	height: 100%;
 	background-color: #74AB9A;
 	flex: 0 0 10%;
@@ -121,10 +121,10 @@ body {
 	background-color: #e0e0e0; 
 }
 
-.completed {
+.task--completed {
 	background-color: gray;
 }
 
-.completed .task-text {
+.task--completed .task-text {
 	text-decoration: line-through;
 }
