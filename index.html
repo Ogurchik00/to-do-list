@@ -16,10 +16,18 @@
 		<div class="task-wrapper">
 	
 			<section class="task-add">
-				<input type="text" class="task-add-text" placeholder="текст новой задачи" autofocus>
-				<button class="task-add-button">
-					Добавить
-				</button>
+				<form class="task-form">
+					<input 
+					  type="text" 
+					  class="task-add-text" 
+					  placeholder="Текст новой задачи" 
+					  autofocus
+					  required 
+					>
+					<button type="submit" class="task-add-button">
+					  Добавить
+					</button>
+				  </form>
 			</section>
 	
 			<ul class="tasks-list">
@@ -40,7 +48,7 @@
 						Задача для выполнения
 					</span>
 					<button class="task-status-button">
-						Выполнены
+						Выполнена
 					</button>
 					<button class="task-delete-button">
 						Удалить
@@ -50,5 +58,6 @@
 			</ul>
 		</div>
 	</div>
+	<script src="scripts.js"></script>
 </body>
 </html>
